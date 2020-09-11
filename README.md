@@ -27,13 +27,38 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+Answer:
+While both methods will iterate through each item in an array, the biggest difference is .forEach on its own preforms exactly like a for loop. Meaning that an array has the possibility of being mutated. .map on the other hand, will return a new array. This was the original array stays intact.
+
 2. Explain the difference between a callback and a higher order function.
+
+Answer:
+A higher-order function is a function that takes another function(s) as an argument(s) and/or returns a function to its callers. A callback function is a function that is passed to another function with the expectation that the other function will call it
 
 3. What is closure?
 
+Answer:
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
 4. Describe the four rules of the 'this' keyword.
 
+Answer:
+It has different values depending on where it is used:
+
+In a method, this refers to the owner object.
+Alone, this refers to the global object.
+In a function, this refers to the global object.
+In a function, in strict mode, this is undefined.
+In an event, this refers to the element that received the event.
+Methods like call(), and apply() can refer this to any object.
+
+
 5. Why do we need super() in an extended class?
+
+Answer:
+calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+ The super() function allows a sub-class to send new attributes up to the parent class/object. It replaces .call()
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
