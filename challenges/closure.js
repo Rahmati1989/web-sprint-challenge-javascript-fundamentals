@@ -19,7 +19,7 @@ myFunction();
 
 // Explanation: 
 
-// -- nested function can access the variable inside because nested functions have access to the scope above them. Internal is the function above nestedFunciton.
+// --  we have declear a varialbe external and that variable can be access anywhere in our code, nested function can access the variable inside because nested functions have access to the scope above them. Internal is the function above nestedFunciton.
 
 /* Task 2: Counter */
 
